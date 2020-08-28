@@ -3,6 +3,6 @@
   "email": ["gabriel.luz@desodobrasil.com.br", "joao.silverio@desodobrasil.com.br"],
   "project_name": "DS_Project",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
-  "project_short_description": "Data Science project at Deso do Brasil",
+  "project_description": "Data Science project at Deso do Brasil",
   "python_version": "3.7"
 }
