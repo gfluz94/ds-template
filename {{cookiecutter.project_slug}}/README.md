@@ -3,4 +3,4 @@
 *Author*: {{cookiecutter.author}} ({{cookiecutter.email}})
 
 The project is about:
-{{cookiecutter.description}}
+{{cookiecutter.project_description}}

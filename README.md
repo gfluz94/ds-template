@@ -4,4 +4,4 @@ This repository works as a directory structure template upon which Data Science 
 
 The folder structure is organized according to TDSP - Team Data Science Project - lifecycle.
 
-Please, contact [gabriel.luz@desodobrasil.com.br] for additional information.
+Please, contact gabriel.luz@desodobrasil.com.br for additional information.
