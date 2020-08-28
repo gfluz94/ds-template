@@ -1,0 +1,5 @@
+# Indica pastas a serem ignoradas na criacao
+# do container docker
+
+data/
+*.pkl
