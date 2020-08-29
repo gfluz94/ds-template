@@ -8,7 +8,7 @@ This report contains the data summary, statistics, and charts that summarize the
 + Overview
 
 | Description | Value |
-| ---:| ---: | ---: |
+|  ---: | ---: |
 | Number of Observations | 10.000 |
 | Number of Features | 25 |
 | Number of Targets | 1 |
