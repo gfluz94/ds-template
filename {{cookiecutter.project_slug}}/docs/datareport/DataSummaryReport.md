@@ -7,6 +7,8 @@ This report contains the data summary, statistics, and charts that summarize the
 
 + Overview
 
+| Description | Value |
+| ---:| ---: | ---: |
 | Number of Observations | 10.000 |
 | Number of Features | 25 |
 | Number of Targets | 1 |
@@ -35,6 +37,8 @@ This report contains the data summary, statistics, and charts that summarize the
 
     + Summary:
 
+    | Statistic | Value |
+    | ---: | ---: |
     | Mean | ### |
     | Standard Deviation | ### |
     | p-1 | ### |
@@ -53,6 +57,8 @@ This report contains the data summary, statistics, and charts that summarize the
 
 + Categorical Target:
 
+    | Statistic | Value |
+    | ---: | ---: |
     | Number of Categories | ### |
     | Labels | ### |
     | % Label 1 | ###% |
@@ -74,6 +80,8 @@ This report contains the data summary, statistics, and charts that summarize the
 
     + Summary:
 
+    | Statistic | Value |
+    | ---: | ---: |
     | Mean | ### |
     | Standard Deviation | ### |
     | p-1 | ### |
@@ -92,6 +100,8 @@ This report contains the data summary, statistics, and charts that summarize the
 
 + Categorical Feature:
 
+    | Statistic | Value |
+    | ---: | ---: |
     | Number of Categories | ### |
     | Labels | ### |
     | % Label 1 | ###% |
