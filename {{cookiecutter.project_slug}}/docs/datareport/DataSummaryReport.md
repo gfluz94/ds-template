@@ -1,18 +1,138 @@
 # Data Report
-This file will be generated for each data file received or processed. The Interactive Data Exploration, Analysis, and Reporting (IDEAR) utility developed by TDSP team of Microsoft can help you explore and visualize the data in an interactive way, and generate the data report along with the process of exploration and visualization. 
 
-IDEAR allows you to output the data summary, statistics, and charts that you want to use to tell the data story into the report. You only need to click a few buttons, and the report will be generated for you. 
+This report contains the data summary, statistics, and charts that summarize the data story.
+
 
 ## General summary of the data
 
-## Data quality summary
++ Overview
+
+| Number of Observations | 10.000 |
+| Number of Features | 25 |
+| Number of Targets | 1 |
+| Train Split | 70% |
+| Validation Split | 15% |
+| Test Split | 15% |
+
+
++ Features/Predictors:
+
+| Name | Type | Description |
+| ---:| ---: | ---: |
+| X1 | Quantitative/Qualitative | Business understanding |
+
+
++ Targets:
+
+| Name | Type | Description |
+| ---:| ---: | ---: |
+| Y | Quantitative/Qualitative | Business understanding |
+
 
 ## Target variable
 
++ Numeric Target:
+
+    + Summary:
+
+    | Mean | ### |
+    | Standard Deviation | ### |
+    | p-1 | ### |
+    | p-5 | ### |
+    | p-25 | ### |
+    | Median | ### |
+    | p-75 | ### |
+    | p-90 | ### |
+    | p-95 | ### |
+    | p-99 | ### |
+    | p-99 | ### |
+
+    + Plots:
+
+    Boxplot, Histogram, QQ-Plot
+
++ Categorical Target:
+
+    | Number of Categories | ### |
+    | Labels | ### |
+    | % Label 1 | ###% |
+    | % Label 2 | ###% |
+    | ... | ... |
+    | ... | ... |
+
+    + Plots:
+
+    Count Plot
+
 ## Individual variables
 
-## Variable ranking
+### Univariate Statistics
+
+#### Feature X1
+
++ Numeric Feature:
+
+    + Summary:
+
+    | Mean | ### |
+    | Standard Deviation | ### |
+    | p-1 | ### |
+    | p-5 | ### |
+    | p-25 | ### |
+    | Median | ### |
+    | p-75 | ### |
+    | p-90 | ### |
+    | p-95 | ### |
+    | p-99 | ### |
+    | p-99 | ### |
+
+    + Plots:
+
+    Boxplot, Histogram, QQ-Plot
+
++ Categorical Feature:
+
+    | Number of Categories | ### |
+    | Labels | ### |
+    | % Label 1 | ###% |
+    | % Label 2 | ###% |
+    | ... | ... |
+    | ... | ... |
+
+    + Plots:
+
+    Count Plot
+
+### Bivariate Statistics
+
++ Numeric Features
+
+    Pairplot, correlation matrix
+
++ Numeric & Qualitative Features
+
+    Numeric Statistics according to groups of qualitative variables
 
 ## Relationship between explanatory variables and target variable
+
+[REGRESSION]
+
++ Numeric Features
+
+    Pairplot, correlation matrix
+
++ Qualitative Features
+
+    Numeric Statistics according to groups of qualitative variables
+
+[CLASSIFICATION]
+
++ Numeric Features
+
+    Numeric Statistics of features according to labels
+
++ Qualitative Features
+
+    Count Plot
 
 
