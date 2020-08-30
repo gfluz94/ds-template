@@ -1,42 +1,81 @@
 # Model Report
-_A report to provide details on a specific experiment (model) - possibly one of many_
 
-If applicable, the Automated Modeling and Reporting utility developed by Microsoft TDSP team can be used to generate reports, which can provide contents for most of the sections in this model report. 
 ## Analytic Approach
-* What is target definition
-* What are inputs (description)
-* What kind of model was built?
+
++ Target Variable:
+
+	| Name | Type | Description |
+	| ---:| ---: | ---: |
+	| Y | Quantitative/Qualitative | Business understanding |
+
++ Input Variables:
+
+	| Name | Type | Description |
+	| ---:| ---: | ---: |
+	| X1 | Quantitative/Qualitative | Business understanding |
+
++ Data Science Pipeline:
+
+	| Description | Value |
+	|  ---: | ---: |
+	| Train Split | 70% |
+	| Validation Split | 15% |
+	| Test Split | 15% |
+
 
 ## Model Description
 
-* Models and Parameters
++ Model
 
-	* Description or images of data flow graph
-  		* if AzureML, link to:
-    		* Training experiment
-    		* Scoring workflow
-	* What learner(s) were used?
-	* Learner hyper-parameters
+	+ Strategy: Machine Learning | Deep Learning
+
+	+ Framework: scikit-learn
+
+	+ Model class: RandomForestClassifier
+
+	+ Hyper-Parameters:
+
+		| Name | Value |
+		|  ---: | ---: |
+		| n_estimators | 100 |
+		| max_depth | 5 |
+		| random_state | 99 |
 
 
 ## Results (Model Performance)
-* ROC/Lift charts, AUC, R^2, MAPE as appropriate
-* Performance graphs for parameters sweeps if applicable
+
+[Regression]
+
+| MAE | MSE | RMSE | R<sup>2</sup> | RMLSE | MAPE |
+|  ---: | ---: |  ---: | ---: |  ---: | ---: |
+|  ### | ### |  ### | ### |  ### | ### |
+
+Histogram (true x predicted), QQ-Plot, Residual Plot, true x predicted
+
+
+[Classification]
+
+| Accuracy | Recall | Precision | F1-Score | AUC-ROC | KS |
+|  ---: | ---: |  ---: | ---: |  ---: | ---: |
+|  ### | ### |  ### | ### |  ### | ### |
+
+ROC, Precision-Recall, CAP Plot, KS-Plot
+
 
 ## Model Understanding
 
-* Variable Importance (significance)
++ Feature Importance:
 
-* Insight Derived from the Model
++ Insights:
 
+
+Shapley Plots
 
 
 ## Conclusion and Discussions for Next Steps
 
-* Conclusion
++ Conclusion on Feasibility Assessment of the Machine Learning Task:
 
-* Discussion on overfitting (if applicable)
++ Feature Engineering analysis:
 
-* What other Features Can Be Generated from the Current Data
-
-* What other Relevant Data Sources Are Available to Help the Modeling
++ Possible additional data sources to help at the task:
